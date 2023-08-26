@@ -1,5 +1,6 @@
 # LMH Summer Programme
 This repository contains the projects for the tutorial during 2023 LMH Summer Programme Section 2
+Hi there, I am Jerry. You may know me if you are in the same AIML class in the summer 2023.
 
 ## Colorization based on Autoencoder with CIFAR10
 
