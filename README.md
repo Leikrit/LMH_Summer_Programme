@@ -21,4 +21,8 @@ This task is based on Actor and Critic model to deal with Mountain Car Continuou
 
 ## Reinforment Learning based on DDPG with the Mountain Car Continuous environment
 
+This task is based on DDPG model to solve the task above.
+
 ## Graph Neural Network based on GCN with the Amazon Product Dataset
+
+This task is based on GCN to implement the node prediction for Amazon Product Dataset.
