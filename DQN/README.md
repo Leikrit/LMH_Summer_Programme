@@ -32,6 +32,16 @@ Monte Carlo methods can be incremental in an episode-by-episode sense, but not i
 
 Q-learning uses a table (Q-table) to store the Q values of the **state-action pair**, and updates the table at each step according to the following formula until convergence.
 
+$$Q(S_t,A_t)\leftarrow Q(S_t,A_t)+\alpha [R_{t+1}+\gamma max_a Q(S_{t+1},a;\theta)-Q(S_t,A_t)]$$
+
+where $\alpha$ is learning rate and $\gamma$ is discount factor which can control the importance of the new experience.
+
+### Value Function Approximation
+
+Since we cannot use a table to accurately store and represent Q-values, we can use a parameterized function to approximate the action value function $Q(s,a)$, i.e.
+
+$$Q(s,a) \approx f(s,a,\theta)$$
+
 ## Deep Q-Network
 
 DQN is the first application of Deep Reinforcement Learning. This method firstly came from DeepMind in 2013.[1] And then they improved the method in 2015.[2]
