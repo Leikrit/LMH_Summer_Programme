@@ -56,6 +56,8 @@ to calculate the Q-value labels. Precisely, it is called **Target Net**.
 
 Target Net is itself a neural network. However, it does not need to be trained. The parameters inside it are updated by copying the parameters from the neural network that we are mainly focus on, which is also called a **Policy Net**. When we are talking about "copying", we can basically copy the values directly. This is considered to be a **hard copy**.
 
+Also, we can set a hyperparameter to control the importance of current policy net parameters when updating the parameters inside target net. This is considered to be a **soft copy**. 
+
 
 
 
