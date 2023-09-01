@@ -65,4 +65,5 @@ Also, we can set a hyperparameter to control the importance of current policy ne
 ## Reference
 
 [1] [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602v1.pdf)
+
 [2] [Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236)
